@@ -25,4 +25,5 @@ Python 3.5.2
 
 ## 示例文档：
 你可以使用此文档进行测试：
-[example.md](https://github.com/cynthiasong/wxprint/blob/master/source/example.md)
+
+[exampled.md](https://github.com/insula1701/maxpress/blob/master/temp/example.md)
