@@ -26,4 +26,4 @@ Python 3.5.2
 ## 示例文档：
 你可以使用此文档进行测试：
 
-[exampled.md](https://github.com/insula1701/maxpress/blob/master/temp/example.md)
+[example.md](https://github.com/insula1701/maxpress/blob/master/temp/example.md)
