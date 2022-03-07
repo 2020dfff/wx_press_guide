@@ -1,4 +1,4 @@
-# wx_print_guide：vx公众号排版tool
+# wx_press_guide：vx公众号排版tool
 
 ## 运行环境
 Python 3.5.2
