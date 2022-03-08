@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import *
 class MainForm(QWidget):
     def __init__(self, name = 'MainForm'):
         super(MainForm,self).__init__()
-        self.setWindowTitle(name)
+        self.setWindowTitle("选择文件")
         self.cwd = os.getcwd() # 获取当前程序文件位置
         self.resize(300,200)  
         # btn 1
@@ -30,7 +30,7 @@ class MainForm(QWidget):
 
     def slot_btn_chooseFile(self):
         fileName_choose, filetype = QFileDialog.getOpenFileName(self,  
-                                    "选取文件并保存至source目录下",  
+                                    "选取文件",  
                                     self.cwd, # 起始路径 
                                     "Markdown Files (*.md);;PDF Files(*.pdf);;All Files (*)")   # 设置文件扩展名过滤,用双分号间隔
         
@@ -72,3 +72,5 @@ if __name__=="__main__":
     mainForm = MainForm('QFileDialog')
     mainForm.show()
     sys.exit(app.exec_())
+
+
