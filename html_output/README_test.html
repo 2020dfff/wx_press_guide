@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+          <head>
+          <meta charset="UTF-8">
+          <title>output</title>
+          <style type="text/css">blockquote::before {content:none}
+blockquote::after {content:none}
+q::before {content:none}
+q::after {content:none}
+table tr:nth-child(2n) {background-color:#F8F8F8}</style>
+</head>
+          <body style="color:#555; font-size:14px; letter-spacing:0.1em; margin:auto 20%; text-align:justify" align="justify">
+<h1 style="color:#2298a5; font-weight:bold; margin:1em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #ddd; font-size:24px" align="left">wx_press_guide：vx公众号排版tool</h1>
+<h2 style="color:#2298a5; font-weight:bold; margin:1em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">运行环境</h2>
+<p style="line-height:2em; margin:1.5em 5px">Python 3.5.2</p>
+<p style="line-height:2em; margin:1.5em 5px"><a href="https://github.com/lepture/mistune" style="color:#2298a5; text-decoration:none">mistune</a>，
+<a href="https://github.com/peterbe/premailer" style="color:#2298a5; text-decoration:none">premailer</a></p>
+<p style="line-height:2em; margin:1.5em 5px">运行以下命令安装：</p>
+<p style="line-height:2em; margin:1.5em 5px"><code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">pip install -r requirements.txt</code></p>
+<h2 style="color:#2298a5; font-weight:bold; margin:1em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">使用方法</h2>
+<ol style="line-height:2em; margin:1.2em 5px; padding-left:2em">
+<li style="margin:0.5em 0">使用Markdown写作，并保存为<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">.md</code>文件。</li>
+<li style="margin:0.5em 0">将要转化的<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">.md</code>文件放入<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">source</code>目录中，运行main.py，
+在<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">html_output</code>目录中得到同文件名的<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">.html</code>文件，
+同时原始<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">.md</code>文件被移动到<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">history</code>目录中备份。</li>
+<li style="margin:0.5em 0">用浏览器打开生成的<code style="line-height:2em; color:#999; margin:auto 5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px; white-space:pre-wrap; font-size:12px">.html</code>文件，全选复制，粘贴到微信编辑器中。</li>
+<li style="margin:0.5em 0">检查，预览，调整。</li>
+</ol>
+<h2 style="color:#2298a5; font-weight:bold; margin:1em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">注意事项</h2>
+<ol style="line-height:2em; margin:1.2em 5px; padding-left:2em">
+<li style="margin:0.5em 0">推送前请务必发送到手机预览仔细检查，作者不保证最终样式的绝对正确。</li>
+<li style="margin:0.5em 0">如须引用图片，请先传到公众号后台，复制微信提供的链接。</li>
+<li style="margin:0.5em 0">可通过订制style.css更改排版样式。</li>
+</ol>
+<h2 style="color:#2298a5; font-weight:bold; margin:1em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">示例文档：</h2>
+<p style="line-height:2em; margin:1.5em 5px">你可以使用此文档进行测试：</p>
+<p style="line-height:2em; margin:1.5em 5px"><a href="https://github.com/insula1701/maxpress/blob/master/temp/example.md" style="color:#2298a5; text-decoration:none">example.md</a></p>
+
+</body>
+</html>
