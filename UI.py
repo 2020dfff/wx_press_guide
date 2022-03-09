@@ -10,7 +10,7 @@ class MainForm(QWidget):
     def __init__(self, name = 'MainForm'):
         super(MainForm,self).__init__()
         self.cwd = os.getcwd() # 获取当前程序文件位置
-        self.setWindowTitle("Markdown Format Converter")
+        self.setWindowTitle("Markdown2VX Press Guide")
         self.setWindowIcon( QIcon (self.cwd + '\\icon\\tiger.png'))
         self.resize(400,100)  
         # btn 1
