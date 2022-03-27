@@ -75,7 +75,6 @@ class MainForm(QWidget):
         shutil.copy(fileName_choose, self.cwd+ '\\source')
         
     def slot_btn_executeFile(self):
-
         os.system('python md2html.py')
 
 if __name__=="__main__":
