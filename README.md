@@ -1,5 +1,10 @@
 # Markdown2VX Press Guide：vx公众号排版tool
 
+
+## 直接使用
+
+下载链接：https://github.com/2020dfff/wx_press_guide/blob/master/Application_v1/md2vx_press_tool.zip
+
 ## 运行环境
 
 Python 3.9.6
