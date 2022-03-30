@@ -1,11 +1,16 @@
 # Markdown2VX Press Guide：vx公众号排版tool
 
+## 直接使用
+
+下载后运行md2vx.exe即可。
+
 ## 运行环境
 
 Python 3.9.6
 
 [mistune](https://github.com/lepture/mistune)，
-[premailer](https://github.com/peterbe/premailer)
+[premailer](https://github.com/peterbe/premailer)，
+PyQt5
 
 运行以下命令安装：
 
