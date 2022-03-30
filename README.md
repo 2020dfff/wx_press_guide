@@ -4,8 +4,9 @@
 
 Python 3.9.6
 
-[mistune](https://github.com/lepture/mistune)，
-[premailer](https://github.com/peterbe/premailer)
+[mistune](https://github.com/lepture/mistune),
+[premailer](https://github.com/peterbe/premailer),
+PyQt5
 
 运行以下命令安装：
 
