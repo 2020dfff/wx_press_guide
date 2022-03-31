@@ -17,10 +17,10 @@ PyQt5
 
 ``pip install -r requirements.txt``
 
-## 使用方法
+## py文件使用/调试方法
 
 1. 使用Markdown写作，并保存为 `.md`文件；
-2. 运行UI.py；
+2. 运行main.py；
 3. 点击 `Choose a Markdown File`，选择写好的 `.md`文件，该 `.md`文件此时自动保存在 `Source `文件夹下；
 4. 点击 `Execute File Conversion` 执行转换；
 5. 在 `html_output`目录中得到同文件名的 `.html`文件，同时原始 `.md`文件被移动到 `history`目录中备份；
@@ -29,9 +29,8 @@ PyQt5
 
 ## 注意事项
 
-1. 推送前请务必发送到手机预览仔细检查，作者不保证最终样式的绝对正确。
+1. 推送前请务必发送到手机预览仔细检查，不保证最终样式的绝对正确。
 2. 如须引用图片，请先传到公众号后台，复制微信提供的链接。
-3. 可通过订制style.css更改排版样式。
 
 ## 示例文档：
 
